@@ -4,14 +4,13 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{AF2E8BAE-03DE-421E-ADB7-1D7BD75031C9}</ProjectGuid>
+    <ProjectGuid>{8BB11640-5350-4F89-B87D-27DAA7D7B1FA}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>QADataModel</RootNamespace>
-    <AssemblyName>QADataModel</AssemblyName>
+    <RootNamespace>ClientDataModel</RootNamespace>
+    <AssemblyName>ClientDataModel</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -41,45 +40,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AOF.cs" />
-    <Compile Include="API.cs" />
-    <Compile Include="Applications.cs" />
-    <Compile Include="businessRule.cs" />
-    <Compile Include="Class1.cs" />
-    <Compile Include="ClientProgWFProjMOTAOF.cs" />
-    <Compile Include="client_program_workflow.cs" />
-    <Compile Include="client_tc_mapping.cs" />
-    <Compile Include="DataModel.cs" />
-    <Compile Include="Environment.cs" />
-    <Compile Include="files.cs" />
-    <Compile Include="Jira.cs" />
-    <Compile Include="loyaltyware.cs" />
-    <Compile Include="MOT.cs" />
-    <Compile Include="program.cs" />
-    <Compile Include="ProgramValues.cs" />
-    <Compile Include="program_workflow_project.cs" />
-    <Compile Include="project.cs" />
-    <Compile Include="project_mot_aof.cs" />
+    <Compile Include="Campaignware\audiences.cs" />
+    <Compile Include="Campaignware\tables.cs" />
+    <Compile Include="CSPortal\AgentUserRole.cs" />
+    <Compile Include="CSPortal\CSAgent.cs" />
+    <Compile Include="Framework\ClientLWConfigurations.cs" />
+    <Compile Include="Framework\StandardTables.cs" />
+    <Compile Include="navigatorusers.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="qac.cs" />
-    <Compile Include="QAData.cs" />
-    <Compile Include="Scenarios.cs" />
-    <Compile Include="script.cs" />
-    <Compile Include="SoftFail.cs" />
-    <Compile Include="storedprocedure.cs" />
-    <Compile Include="testcase.cs" />
-    <Compile Include="testClient.cs" />
-    <Compile Include="TestingAppUser.cs" />
-    <Compile Include="TestingObjects.cs" />
-    <Compile Include="testingpref.cs" />
-    <Compile Include="tests.cs" />
-    <Compile Include="testSteps.cs" />
-    <Compile Include="URL.cs" />
-    <Compile Include="user.cs" />
-    <Compile Include="ProductTesting\VersionBuildInfo.cs" />
-    <Compile Include="webaction.cs" />
-    <Compile Include="WorkFlow.cs" />
-    <Compile Include="workflow_project_mot.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
