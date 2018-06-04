@@ -57,9 +57,12 @@ namespace QADataModel
     {
 
         public Guid Client_IDNumber { get; set; }
+        public string OrgName { get; set; }
         public Guid Env_IDNumber { get; set; }
+
         public string Environment { get; set; }
         public string Env_Shrt { get; set; }
+        public string Description { get; set; }
         public Int32 Status = 1;
     }
 
