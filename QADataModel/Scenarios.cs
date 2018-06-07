@@ -40,6 +40,7 @@ namespace QADataModel
             public string Query { get; set; }
             public string EvaluationType { get; set; }
             public string Evaluated_value { get; set; }
+            public Guid ParentIDNUm { get; set; }
 
             public int Status { get; set; }
         }

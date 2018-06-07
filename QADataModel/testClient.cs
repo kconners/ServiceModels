@@ -42,6 +42,8 @@ namespace QADataModel
         public string MGWURL { get; set; }
         public string RESTURL { get; set; }
         public string Schema { get; set; }
+        public string NET { get; set; }
+        public string JAR { get; set; }
     }
     public class TestclientURLRoot
     {
@@ -63,6 +65,7 @@ namespace QADataModel
         public string Environment { get; set; }
         public string Env_Shrt { get; set; }
         public string Description { get; set; }
+        public string Order { get; set; }
         public Int32 Status = 1;
     }
 

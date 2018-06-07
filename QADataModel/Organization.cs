@@ -17,5 +17,6 @@ namespace QADataModel
         public string OrgContactNum = string.Empty;
         public string OrgContactEmail = string.Empty;
         public string OrgOracleSchema = string.Empty;
+        public string OrgDotNetDLLLocation = string.Empty;
     }
 }
