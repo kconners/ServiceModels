@@ -44,10 +44,12 @@
     <Compile Include="Campaignware\tables.cs" />
     <Compile Include="CSPortal\AgentUserRole.cs" />
     <Compile Include="CSPortal\CSAgent.cs" />
+    <Compile Include="Framework\CIS.cs" />
     <Compile Include="Framework\ClientLWConfigurations.cs" />
     <Compile Include="Framework\StandardTables.cs" />
     <Compile Include="navigatorusers.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StandardModels\Store.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

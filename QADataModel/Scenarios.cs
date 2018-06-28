@@ -14,6 +14,7 @@ namespace QADataModel
             public Guid Client_idnumber { get; set; }
             public Guid DataModel_idnumber { get; set; }
             public Guid TestCase_idnumber { get; set; }
+            public Guid Standard_Scenario_idnumber { get; set; }
 
             public string Scenario { get; set; }
             public string Scnshort { get; set; }
