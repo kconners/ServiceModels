@@ -41,6 +41,7 @@ namespace QADataModel
             public string modelName { get; set; }
             public int Status { get; set; }
             public int Level { get; set; }
+            public int ItemNumber { get; set; }
         }
 
         public class DatamodelMappingRoot
