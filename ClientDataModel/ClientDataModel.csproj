@@ -49,7 +49,10 @@
     <Compile Include="Framework\StandardTables.cs" />
     <Compile Include="navigatorusers.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StandardModels\Product.cs" />
+    <Compile Include="StandardModels\RewardDef.cs" />
     <Compile Include="StandardModels\Store.cs" />
+    <Compile Include="StandardModels\Tier.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

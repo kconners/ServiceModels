@@ -29,6 +29,11 @@ namespace ClientDataModel.Framework
             public List<Configuration_Keys> keys { get; set; }
         }
 
+        public enum DBType
+        {
+            Oracle,
+            PostgreSQL
+        }
 
         public class Configurations
         {
