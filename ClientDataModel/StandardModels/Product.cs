@@ -34,7 +34,6 @@ namespace ClientDataModel.StandardModels
         public string struserfield { get; set; }
         public string longuserfield { get; set; }
         public string id { get; set; }
-    
         public string createdate { get; set; }
         public string updatedate { get; set; }
         public Int32 Status = 1;
