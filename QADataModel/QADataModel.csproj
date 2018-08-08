@@ -56,6 +56,7 @@
     <Compile Include="loyaltyware.cs" />
     <Compile Include="MOT.cs" />
     <Compile Include="Organization.cs" />
+    <Compile Include="ProductTesting\QueryString.cs" />
     <Compile Include="program.cs" />
     <Compile Include="ProgramValues.cs" />
     <Compile Include="program_workflow_project.cs" />

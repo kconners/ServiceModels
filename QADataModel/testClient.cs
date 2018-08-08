@@ -13,6 +13,7 @@ namespace QADataModel
         public string client_name { get; set; }
         public Guid env_idnum { get; set; }
         public Guid loyaltyversion { get; set; }
+        
         public Guid build_idnum { get; set; }
         public string client_schema { get; set; }
         public string client_desc { get; set; }
