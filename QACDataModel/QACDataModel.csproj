@@ -84,6 +84,7 @@
     <Compile Include="Release.cs" />
     <Compile Include="Requirements.cs" />
     <Compile Include="SimpleAES.cs" />
+    <Compile Include="TestRunItems.cs" />
     <Compile Include="TestRuns.cs" />
     <Compile Include="Tests.cs" />
     <Compile Include="TestSetItems.cs" />
