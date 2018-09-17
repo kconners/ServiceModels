@@ -17,12 +17,14 @@ namespace QADataModel
             public string OrgsEnvShortName { get; set; }
             public string OrgsEnv_LongName { get; set; }
             public string Release { get; set; }
+            public string Iteration { get; set; }
             public string Build { get; set; }
             public string Application { get; set; }
             public string LWVersion { get; set; }
             public string LWBuild { get; set; }
             public Guid LWVersion_IDNUM { get; set; }
             public Guid LWBuild_IDNUM { get; set; }
+            public Guid LWITeration_IDNUM { get; set; }
         }
         public class GlobalVar
         {

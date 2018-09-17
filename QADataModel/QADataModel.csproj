@@ -56,6 +56,7 @@
     <Compile Include="loyaltyware.cs" />
     <Compile Include="MOT.cs" />
     <Compile Include="Organization.cs" />
+    <Compile Include="ProductTesting\Navigator\User.cs" />
     <Compile Include="ProductTesting\QueryString.cs" />
     <Compile Include="program.cs" />
     <Compile Include="ProgramValues.cs" />
@@ -65,6 +66,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="qac.cs" />
     <Compile Include="QAData.cs" />
+    <Compile Include="Rest\Authentication.cs" />
     <Compile Include="Scenarios.cs" />
     <Compile Include="script.cs" />
     <Compile Include="SoftFail.cs" />

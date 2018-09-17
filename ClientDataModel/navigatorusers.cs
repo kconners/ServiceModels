@@ -12,6 +12,7 @@ namespace ClientDataModel
         {
             public Guid row_idnumber { get; set; }
             public Guid version_idnum { get; set; }
+            public Guid iteration_idnum { get; set; }
             public Guid build_idnum { get; set; }
             public Guid usertype { get; set; }
             public string username { get; set; }

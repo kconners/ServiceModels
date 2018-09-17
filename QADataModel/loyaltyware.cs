@@ -38,6 +38,7 @@ namespace QADataModel
         {
             public List<iteration> builds { get; set; }
         }
+
         public class iterationRootObject
         {
             public iteration builds { get; set; }

@@ -15,6 +15,7 @@ namespace QACDataModel
         public bool is_stopped_on_fail { get; set; }
         public string status_code { get; set; }
         public string step { get; set; }
+        public string step_name { get; set; }
         public string expected_result { get; set; }
         public int test_step_id { get; set; }
         public int project_id { get; set; }
