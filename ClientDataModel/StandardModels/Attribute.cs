@@ -32,6 +32,6 @@ namespace ClientDataModel.StandardModels
         public string createdate { get; set; }
         public string updatedate { get; set; }
         public Int32 Status = 1;
-        public string attributeset_idnum { get; set; }
+        public Guid attributeset_idnum { get; set; }
 }
 }
