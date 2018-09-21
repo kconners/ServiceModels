@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ClientDataModel.StandardModels
 {
-    class CSRoleFunction
+    public class CSRoleFunction
     { public Guid row_idnumber { get; set; }
         public Guid env_idnumber { get; set; }
         public string id { get; set; }

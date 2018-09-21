@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ClientDataModel.StandardModels
 {
-    class MemberBonus
+    public class MemberBonus
     {
         public Guid row_idnumber { get; set; }
         public Guid env_idnumber { get; set; }

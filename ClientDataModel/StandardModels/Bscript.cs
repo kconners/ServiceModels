@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ClientDataModel.StandardModels
 {
-    class Bscript
+    public class Bscript
     {
         public Guid row_idnumber { get; set; }
         public Guid env_idnumber { get; set; }
