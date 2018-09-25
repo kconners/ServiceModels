@@ -48,6 +48,10 @@
     <Compile Include="Framework\ClientLWConfigurations.cs" />
     <Compile Include="Framework\MemberCoupon.cs" />
     <Compile Include="Framework\StandardTables.cs" />
+    <Compile Include="StandardModels\Channel.cs" />
+    <Compile Include="StandardModels\Language.cs" />
+    <Compile Include="StandardModels\Promotion.cs" />
+    <Compile Include="StandardModels\Survey.cs" />
     <Compile Include="StandardModels\Website.cs" />
     <Compile Include="navigatorusers.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -56,7 +60,6 @@
     <Compile Include="StandardModels\BonusDef.cs" />
     <Compile Include="StandardModels\Bscript.cs" />
     <Compile Include="StandardModels\Category.cs" />
-    <Compile Include="StandardModels\ChannelDef.cs" />
     <Compile Include="StandardModels\CouponDef.cs" />
     <Compile Include="StandardModels\CSAgent.cs" />
     <Compile Include="StandardModels\CSFunction.cs" />
