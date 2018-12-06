@@ -40,6 +40,12 @@ namespace QADataModel
             public string Client_Short { get; set; }
             public string Title { get; set; }
             public string Description { get; set; }
+
+            public string PreConditions { get; set; }
+            public string Component { get; set; }
+            public string SubComponent { get; set; }
+            public string Regression { get; set; }
+
             public string ID { get; set; }
             public string QAC_Updated_Date { get; set; }
             public string Folder { get; set; }

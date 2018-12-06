@@ -40,6 +40,12 @@ namespace QADataModel
             public Int32 automation_test_status = 0;
             public string regression_yes_no { get; set; }
             public string execution_version { get; set; }
+
+            public string PreConditions { get; set; }
+            public string Component { get; set; }
+            public string SubComponent { get; set; }
+            public string Regression { get; set; }
+            
             public string execution_notes { get; set; }
             public DateTime aproveddate { get; set; }
             public Int32 qatestcasenum = 0;

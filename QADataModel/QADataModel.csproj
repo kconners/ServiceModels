@@ -44,8 +44,8 @@
     <Compile Include="AOF.cs" />
     <Compile Include="API.cs" />
     <Compile Include="Applications.cs" />
+    <Compile Include="Automation.cs" />
     <Compile Include="businessRule.cs" />
-    <Compile Include="Class1.cs" />
     <Compile Include="ClientProgWFProjMOTAOF.cs" />
     <Compile Include="client_program_workflow.cs" />
     <Compile Include="client_tc_mapping.cs" />

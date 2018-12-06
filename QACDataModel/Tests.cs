@@ -24,7 +24,7 @@ namespace QACDataModel
         public int avg_run_time { get; set; }
         public string avg_run_time_formated { get; set; }
         public int create_user_id { get; set; }
-        public List<object> custom_fields { get; set; }
+        public List<CustomField> custom_fields { get; set; }
         public DateTime date_created { get; set; }
         public DateTime date_last_escalated { get; set; }
         public DateTime date_updated { get; set; }
@@ -71,5 +71,11 @@ namespace QACDataModel
         public int seq { get; set; }
         public string step { get; set; }
         public int update_user_id { get; set; }
+    }
+    public class CustomField
+    {
+        public string id { get; set; }
+        public string name { get; set; }
+        public string value { get; set; }
     }
 }

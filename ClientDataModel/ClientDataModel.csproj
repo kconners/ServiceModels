@@ -49,8 +49,10 @@
     <Compile Include="Framework\MemberCoupon.cs" />
     <Compile Include="Framework\StandardTables.cs" />
     <Compile Include="StandardModels\Channel.cs" />
+    <Compile Include="StandardModels\Consumer.cs" />
     <Compile Include="StandardModels\Language.cs" />
     <Compile Include="StandardModels\Promotion.cs" />
+    <Compile Include="StandardModels\ruletriggers.cs" />
     <Compile Include="StandardModels\Survey.cs" />
     <Compile Include="StandardModels\Website.cs" />
     <Compile Include="navigatorusers.cs" />

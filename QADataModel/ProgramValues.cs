@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace QADataModel
 {
     public class ProgramValues
@@ -21,11 +22,36 @@ namespace QADataModel
             public string Build { get; set; }
             public string Application { get; set; }
             public string LWVersion { get; set; }
+            public string LWIteration { get; set; }
             public string LWBuild { get; set; }
+            public string TestSetName { get; set; }
+            public string URL { get; set; }
             public Guid LWVersion_IDNUM { get; set; }
             public Guid LWBuild_IDNUM { get; set; }
             public Guid LWITeration_IDNUM { get; set; }
+
+            public RunItems(QADataModel.TestingObjects.RunItems RI)
+            {
+                this.Application = RI.Application;
+                this.Client_Name = RI.Client_Name;
+                this.Org_Name = RI.Org_Name;
+                this.Env_Short = RI.Env_Short;
+                this.UserName = RI.UserName;
+                this.OrgsEnvShortName = RI.OrgsEnvShortName;
+                this.OrgsEnv_LongName = RI.OrgsEnv_LongName;
+                this.Release = RI.Release;
+                this.Build = RI.Build;
+                this.LWVersion = RI.LWVersion;
+                this.LWBuild = RI.LWBuild;
+                this.LWVersion_IDNUM = RI.LWVersion_IDNUM;
+                this.LWBuild_IDNUM = RI.LWBuild_IDNUM;
+            }
+            public RunItems()
+            {
+
+            }
         }
+       
         public class GlobalVar
         {
 
